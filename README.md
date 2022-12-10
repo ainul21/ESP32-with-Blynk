@@ -5,4 +5,4 @@ Wokwi:
 https://wokwi.com/
 
 Blynk:
-https://blynk.cloud/dashboard/login
+https://blynk.cloud/dashboard/register
