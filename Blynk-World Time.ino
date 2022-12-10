@@ -1,5 +1,4 @@
 #define BLYNK_PRINT Serial
-#include <Servo.h>
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
@@ -7,18 +6,13 @@
 
 char auth[] = "";
 
-const char* ssid     = "";                    // your network SSID (name)
+const char* ssid = "";                    // your network SSID (name)
 const char* pass = "";                    // your network password
 
 
 const char* ntpServer = "pool.ntp.org";
 const long  gmtOffset_sec = 28800;
 const int   daylightOffset_sec = 3600;
-
-Servo myservo;  // create servo object to control a servo
-
-int potpin = 0;  // analog pin used to connect the potentiometer
-int val;    // variable to read the value from the analog pin
 
 
 /*
