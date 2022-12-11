@@ -4,9 +4,9 @@
 #include <BlynkSimpleEsp32.h>
 #include "time.h"
 
-char auth[] = "dc0A6NFcRjt_VPW3kck9qjQu_FRj5wA9";
+char auth[] = "";
 
-const char* ssid     = "Wokwi-GUEST";                    // your network SSID (name)
+const char* ssid     = "";                    // your network SSID (name)
 const char* pass = "";                    // your network password
 
 Servo servo;
