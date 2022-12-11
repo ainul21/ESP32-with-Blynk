@@ -11,7 +11,7 @@ const char* pass = "";                    // your network password
 
 
 const char* ntpServer = "pool.ntp.org";
-const long  gmtOffset_sec = 28800;
+const long  gmtOffset_sec = 0;  //28800
 const int   daylightOffset_sec = 3600;
 
 
