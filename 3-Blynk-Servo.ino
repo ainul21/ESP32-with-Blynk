@@ -2,6 +2,7 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
+#include <ESP32Servo.h>
 #include "time.h"
 
 char auth[] = "";
